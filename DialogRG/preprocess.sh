@@ -1,0 +1,1 @@
+python preprocess.py --config_path $1

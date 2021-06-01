@@ -1,0 +1,49 @@
+{
+    "train_path": "../data/daily_semi/train",
+    "dev_path": "../data/daily_semi/dev",
+    "test_path": "../data/daily_semi/test",
+    "log_dir": "workplace/adapter_baseline_bos_fast",
+    "suffix": "dailydiag_bleu5",
+    "lang": "en",
+
+    "is_shuffle": true,
+    "is_sort": true,
+   
+    "rl_ratio": 0,
+    "rl_type": "bleu-1",
+
+    "save_data": "workplace/data-semi-faster",
+    "use_bpe_pretrain": false,
+    "pretrain_emb_path": "../data/glove/glove.840B.300d.txt",
+	"freeze_emb": false,
+    
+    "knowledge_usage": "disable",
+    "knowledge_topk": 3,
+    "kn_iter_num": 0,
+    "use_kl_loss": false,
+
+    "dual_enc": false,
+    "use_adapter": true,
+
+    "batch_size": 20,
+    "num_epochs": 200,
+    "patience": 50,
+    "d_dec": 512,
+    "d_enc_sent": 512,
+    "d_enc_concept": 512,
+    "d_relation": 64,
+    "n_head": 8,
+    "g_n_head": 8,
+	"fp16": false,
+	"share_vocab": false,
+	"share_con_vocab": false,
+    "grad_accum_steps": 1,
+    "learning_rate": 1e-4,
+    "warmup_proportion": 0.1,
+    "dropout": 0.1,
+    "num_layer": 4,
+    "g_num_layer": 4,
+    "adapter_layer": 2,
+    "adapter_pe": true,
+    "num_workers": 1
+}
