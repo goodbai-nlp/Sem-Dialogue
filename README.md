@@ -1,5 +1,6 @@
 # AMR-Dialogue
-An implementation for paper "Semantic Representation for Dialogue Modeling" (to appear in ACL 2021)
+An implementation for paper "Semantic Representation for Dialogue Modeling".
+You may find our paper [here](https://arxiv.org/pdf/2105.10188).
 
 # Requirements
 + python 3.6
