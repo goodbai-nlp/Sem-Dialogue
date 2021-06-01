@@ -1,4 +1,4 @@
-# AMR-Backparsing
+# AMR-Dialogue
 An implementation for paper "Semantic Representation for Dialogue Modeling" (to appear in ACL 2021)
 
 # Requirements
