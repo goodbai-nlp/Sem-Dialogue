@@ -6,7 +6,7 @@ You may find our paper [here](https://arxiv.org/pdf/2105.10188).
 + python 3.6
 + pytorch 1.6
 
-We recommend to use conda to manage enviroments:
+We recommend to use conda to manage virtual environments:
 ```
 conda create --name <env> --file requirements.txt
 ```
@@ -20,7 +20,7 @@ bash /path/to/code/preprocess.sh
 
 # Training
 ```
-bash /path/to/code/run-dual/hier.sh
+bash /path/to/code/run-dual(hier).sh
 ```
 
 # Evaluation
