@@ -31,6 +31,7 @@ bash /path/to/code/decode.sh                 # for dialogue response generation
 
 # Todo
 + upload preprocessed data
++ upload trained checkpoint
 + clean code
 
 # References
@@ -41,8 +42,7 @@ bash /path/to/code/decode.sh                 # for dialogue response generation
       Chen, Yulong and
       Song, Linfeng  and
       Zhang, Yue",
-    booktitle = "Proceedings of the Joint Conference of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (ACL-IJCNLP 2021)
-",
+    booktitle = "Proceedings of the Joint Conference of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (ACL-IJCNLP 2021)",
     month = August,
     year = "2021",
     address = "Online",
