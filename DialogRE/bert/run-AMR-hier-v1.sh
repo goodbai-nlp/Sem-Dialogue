@@ -1,18 +1,15 @@
 BERT_BASE_DIR=/public/home/zhangyuegroup/baixuefeng/data/pretrained-model/bert-base-uncased
 model=Hier
 g_layer=2
-dev=6
+dev=0
 mode=$1
 seed=42
-setting=v1
 setting=v1-coref
+save_path=bert_f1_max-512-${model}-AMR-seed-${seed}-glayer-$g_layer-$setting-new
+mkdir -p $save_path
 if [ "$mode" == "train" ]
 then
 echo "Start Training..."
-for seed in 1 2 3 42 666
-do
-save_path=bert_f1_max-512-${model}-AMR-seed-${seed}-glayer-$g_layer-$setting-new
-mkdir -p $save_path
 CUDA_VISIBLE_DEVICES=$dev python -u run.py --task_name bert --do_train --do_eval \
 	--architecture $model \
 	--seed $seed \
@@ -31,13 +28,9 @@ CUDA_VISIBLE_DEVICES=$dev python -u run.py --task_name bert --do_train --do_eval
 	--d_concept 512 \
 	--save_data workplace/data-bin-$setting \
 	--gradient_accumulation_steps 2 2>&1 | tee $save_path/run.log
-done
 elif [ "$mode" == "test" ]
 then
 echo "Start Testing..."
-for seed in 1 2 3 42 666
-do
-save_path=bert_f1_max-512-${model}-AMR-seed-${seed}-glayer-$g_layer-$setting-new
 CUDA_VISIBLE_DEVICES=$dev python -u run.py --task_name bert --do_eval --do_evalc \
 	--architecture $model \
 	--seed $seed \
@@ -56,7 +49,6 @@ CUDA_VISIBLE_DEVICES=$dev python -u run.py --task_name bert --do_eval --do_evalc
 	--d_concept 512 \
 	--save_data workplace/data-bin-$setting \
 	--gradient_accumulation_steps 2 2>&1 | tee $save_path/eval.log
-done
 else
 	echo "Invalid mode $mode!!!"
 fi
