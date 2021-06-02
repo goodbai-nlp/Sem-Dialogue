@@ -5,6 +5,8 @@ You may find our paper [here](https://arxiv.org/pdf/2105.10188).
 # Requirements
 + python 3.6
 + pytorch 1.6
++ Tesla V100 (32G)
++ Memory > 150G
 
 We recommend to use conda to manage virtual environments:
 ```
