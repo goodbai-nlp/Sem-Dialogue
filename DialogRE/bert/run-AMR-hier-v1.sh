@@ -1,18 +1,17 @@
 BERT_BASE_DIR=/public/home/zhangyuegroup/baixuefeng/data/pretrained-model/bert-base-uncased
 model=Hier
 g_layer=2
-dev=0
+dev=7
 mode=$1
-seed=42
 setting=v1-coref
-save_path=bert_f1_max-512-${model}-AMR-seed-${seed}-glayer-$g_layer-$setting-new
+save_path=bert_f1_max-512-${model}-AMR-glayer-$g_layer-$setting
 mkdir -p $save_path
 if [ "$mode" == "train" ]
 then
 echo "Start Training..."
 CUDA_VISIBLE_DEVICES=$dev python -u run.py --task_name bert --do_train --do_eval \
 	--architecture $model \
-	--seed $seed \
+	--seed 42 \
 	--vocab_file $BERT_BASE_DIR/vocab.txt \
 	--bert_config_file $BERT_BASE_DIR/bert_config.json  \
 	--init_checkpoint $BERT_BASE_DIR/pytorch_model.bin   \
@@ -33,7 +32,7 @@ then
 echo "Start Testing..."
 CUDA_VISIBLE_DEVICES=$dev python -u run.py --task_name bert --do_eval --do_evalc \
 	--architecture $model \
-	--seed $seed \
+	--seed 42 \
 	--vocab_file $BERT_BASE_DIR/vocab.txt \
 	--bert_config_file $BERT_BASE_DIR/bert_config.json  \
 	--init_checkpoint $BERT_BASE_DIR/pytorch_model.bin   \

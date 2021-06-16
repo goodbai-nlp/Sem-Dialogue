@@ -3,16 +3,15 @@ dev=0
 model=Dual
 g_layer=3
 mode=$1
-seed=2
 setting=v2-coref
-save_path=bert_f1_max-512-${model}-AMR-seed-${seed}-glayer-$g_layer-$setting
+save_path=bert_f1_max-512-${model}-AMR-glayer-$g_layer-$setting
 mkdir -p $save_path
 if [ "$mode" == "train" ]
 then
 echo "Start Training..."
 CUDA_VISIBLE_DEVICES=$dev python -u run.py --task_name bert --do_train --do_eval --do_evalc \
 	--architecture $model \
-	--seed $seed \
+	--seed 2 \
 	--vocab_file $BERT_BASE_DIR/vocab.txt \
 	--bert_config_file $BERT_BASE_DIR/bert_config.json  \
 	--init_checkpoint $BERT_BASE_DIR/pytorch_model.bin   \
@@ -33,7 +32,7 @@ then
 echo "Start Testing..."
 CUDA_VISIBLE_DEVICES=$dev python -u run.py --task_name bert --do_eval --do_evalc \
 	--architecture $model \
-	--seed $seed \
+	--seed 2 \
 	--vocab_file $BERT_BASE_DIR/vocab.txt \
 	--bert_config_file $BERT_BASE_DIR/bert_config.json  \
 	--init_checkpoint $BERT_BASE_DIR/pytorch_model.bin   \

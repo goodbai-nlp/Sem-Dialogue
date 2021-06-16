@@ -391,7 +391,7 @@ args = parser.parse_args()
 
 logging.basicConfig(
     filename=args.output_dir + "/runing.log",
-    filemode="a",  ##模式，有w和a，w就是写模式，每次都会重新写日志，覆盖之前的日志
+    filemode="a",  #
     format="%(asctime)s - %(levelname)s - %(name)s -   %(message)s",
     datefmt="%m/%d/%Y %H:%M:%S",
     level=logging.INFO,

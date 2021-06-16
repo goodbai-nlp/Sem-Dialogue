@@ -11,7 +11,7 @@ We recommend to use conda to manage enviroments:
 conda create --name <env> --file requirements.txt
 ```
 # Data 
-We provide preprocessed data for two tasks here [tobeadded].
+The preprocessed data for DialogRE and DialogRG are avaliable at [here](https://drive.google.com/file/d/1CDnYe-hqxN66-xg9JzZ23XfsbflNbnMQ/view?usp=sharing, https://drive.google.com/file/d/1VJnXyoDg2TdqdMyTaB-p4ey_zaHWewXU/view?usp=sharing) and [here](tobeadded), respectively.
 
 # Preprocessing
 ```
@@ -29,9 +29,28 @@ bash /path/to/code/eval.sh                   # for dialogue relation extraction
 bash /path/to/code/decode.sh                 # for dialogue response generation
 ```
 
+# Pretrained Models
+
+## DialogRE
+
+### Data-v1
+
+|Setting|  dev-F1  | dev-F1c  | test-F1 | test-F1c | checkpoint |
+|  :----:  | :----:  |:---:|  :----:  | :----:  |
+| Hier  |  | 68.3 |  | 62.9  |  | 68.4  | 62.3 | [model](https://drive.google.com/file/d/157EpLDMct6HGzWUH36ZCudzjWCNgxh0F/view?usp=sharing) |
+| Dual  |  | 68.6 |  | 62.6  |  | 68.0  | 61.5 | [model](https://drive.google.com/file/d/1eNsAEZXMZPGD-WOPyPGEwsysbMLvzL6X/view?usp=sharing) |
+
+
+### Data-v2
+
+|Setting|  dev-F1  | dev-F1c  | test-F1 | test-F1c | checkpoint |
+|  :----:  | :----:  |:---:|  :----:  | :----:  |
+| Hier  |  | 68.8 |  | 62.4  |  | 66.6  | 61.2 | [model](https://drive.google.com/file/d/14F0YCfBu10S_JV6-vlXHpjGyNJrMZLQC/view?usp=sharing) |
+| Dual  |  | 68.4 |  | 62.7  |  | 67.3  | 61.7 | [model](https://drive.google.com/file/d/1oeosWHIva6IWGFvjEYrcPxoGhd1UZ9Kv/view?usp=sharing) |
+
 # Todo
-+ upload preprocessed data
-+ upload trained checkpoint
++ upload preprocessed DialogRG data
++ upload trained DialogRG checkpoint
 + clean code
 
 # References
