@@ -6,7 +6,7 @@ You may find our paper [here](https://arxiv.org/pdf/2105.10188).
 + python 3.6
 + pytorch 1.6
 + Tesla V100 (32G)
-+ Memory > 150G
++ Memory > 150G (for DialogRE)
 
 We recommend to use conda to manage virtual environments:
 ```
