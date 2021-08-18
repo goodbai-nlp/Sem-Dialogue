@@ -13,7 +13,7 @@ We recommend to use conda to manage virtual environments:
 conda create --name <env> --file requirements.txt
 ```
 # Data 
-The preprocessed data for DialogRE and DialogRG are avaliable at [here](https://drive.google.com/drive/folders/1UEzGAmV5b7POtlH8sH-rDA0GfXlwteDE?usp=sharing) and [here](tobeadded), respectively.
+The preprocessed data for DialogRE and DialogRG are avaliable at [here](https://drive.google.com/drive/folders/1UEzGAmV5b7POtlH8sH-rDA0GfXlwteDE?usp=sharing) and [here](tobeadded), respectively. Please refer [here](https://github.com/muyeby/AMR-Dialogue/blob/main/DATA_README.md) for more descriptions about the preprocessed data.
 
 # Preprocessing
 ```
