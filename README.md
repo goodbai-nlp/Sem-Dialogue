@@ -55,19 +55,19 @@ bash /path/to/code/decode.sh                 # for dialogue response generation
 
 # References
 ```
-@inproceedings{bai-etal-2020-online,
+@inproceedings{bai-etal-2021-semantic,
     title = "Semantic Representation for Dialogue Modeling",
-    author = "Bai, Xuefeng  and 
-      Chen, Yulong and
+    author = "Bai, Xuefeng  and
+      Chen, Yulong  and
       Song, Linfeng  and
       Zhang, Yue",
-    booktitle = "Proceedings of the Joint Conference of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (ACL-IJCNLP 2021)",
-    month = August,
+    booktitle = "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+    month = aug,
     year = "2021",
     address = "Online",
     publisher = "Association for Computational Linguistics",
-    url = "todo",
-    doi = "todo",
-    pages = "todo",
+    url = "https://aclanthology.org/2021.acl-long.342",
+    doi = "10.18653/v1/2021.acl-long.342",
+    pages = "4430--4445"
 }
 ```
