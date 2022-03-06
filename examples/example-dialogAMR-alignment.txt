@@ -1,0 +1,641 @@
+ ::snt speaker1 : it ' s been an hour and not one of my classmates has shown up ! i tell you , when i actually die some people are gonna get seriously haunted ! speaker2 : there you go ! someone came ! speaker1 : ok , ok ! i ' m gonna go hide ! oh , this is so exciting , my first mourner ! speaker3 : hi , glad you could come . speaker2 : please , come in . speaker4 : hi , you ' re chandler bing , right ? i ' m tom gordon , i was in your class . speaker2 : oh yes , yes . . . let me . . . take your coat . speaker4 : thanks . . . uh . . . i ' m so sorry about ross , it ' s . . . speaker2 : at least he died doing what he loved . . . watching blimps . speaker1 : who is he ? speaker2 : some guy , tom gordon . speaker1 : i don ' t remember him , but then again i touched so many lives . speaker3 : so , did you know ross well ? speaker4 : oh , actually i barely knew him . yeah , i came because i heard chandler ' s news . d ' you know if he ' s seeing anyone ? speaker3 : yes , he is . me . speaker4 : what ? you . . . you . . . oh ! can i ask you a personal question ? ho - how do you shave your beard so close ? speaker2 : ok tommy , that ' s enough mourning for you ! here we go , bye bye ! ! speaker4 : hey , listen . call me . speaker2 : ok !
+# ::tok speaker1 : it ' s been an hour and not one of my classmates has shown up ! i tell you , when i actually die some people are gonna get seriously haunted ! speaker2 : there you go ! someone came ! speaker1 : ok , ok ! i ' m gonna go hide ! oh , this is so exciting , my first mourner ! speaker3 : hi , glad you could come . speaker2 : please , come in . speaker4 : hi , you ' re chandler bing , right ? i ' m tom gordon , i was in your class . speaker2 : oh yes , yes . . . let me . . . take your coat . speaker4 : thanks . . . uh . . . i ' m so sorry about ross , it ' s . . . speaker2 : at least he died doing what he loved . . . watching blimps . speaker1 : who is he ? speaker2 : some guy , tom gordon . speaker1 : i don ' t remember him , but then again i touched so many lives . speaker3 : so , did you know ross well ? speaker4 : oh , actually i barely knew him . yeah , i came because i heard chandler ' s news . d ' you know if he ' s seeing anyone ? speaker3 : yes , he is . me . speaker4 : what ? you . . . you . . . oh ! can i ask you a personal question ? ho - how do you shave your beard so close ? speaker2 : ok tommy , that ' s enough mourning for you ! here we go , bye bye ! ! speaker4 : hey , listen . call me . speaker2 : ok !
+# ::alignments 8-9|0.0.0 27-28|0.0.0.2.0 26-27|0.0.0.2.0.0 10-11|0.0.0.1.0 7-8|0.0.0.1+0.0.0.1.1 19-20|0.0.1 20-21|0.0.1.2 30-31|0.0.1.1 25-26|0.0.1.1.1 12-13|0.0.1.0 13-14|0.0.1.0.1 37-38|0.1.0.0.0.0 36-37|0.1.0.1 17-18|0.1.0.2 41-42|0.1.1 40-41|0.1.1.0 45-46|0.2.0 33-34|0.2.0.0 38-39|0.2.1 56-57|0.2.1.2 39-40|0.2.1.2.0 54-55|0.2.1.1 18-19|0.2.1.0 61-62|0.2.2.0 60-61|0.2.2.0.1 58-59|0.2.2.0.0 23-24|0.2.2.1.0.0 65-66|0.2.2.1+0.2.2.1.0+0.2.2.1.0.1 64-65|0.2.2.1.1 69-70|0.3.0 71-72|0.3.1 73-74|0.3.1.0 74-75|0.3.1.0.0 72-73|0.3.1.0.0.0 85-86|0.5.0.1 91-92|0.5.1 87-88|0.5.1.2 49-50|0.5.1.0 99-100|0.5.2.0 105-106|0.5.2.1 116-117|0.6.1 109-110|0.6.1.2 42-43|0.6.1.2.0 121-122|0.6.1.1 123-124|0.6.1.1.1 63-64|0.6.1.1.0 202-203|0.6.1.0 127-128|0.7.0 95-96|0.7.0.0 139-140|0.7.1.0 138-139|0.7.1.0.1 155-156|0.8.0 158-159|0.8.0.1+0.8.0.1.0 153-154|0.8.0.0 162-163|0.8.1 163-164|0.8.1.0 156-157|0.9.0 157-158|0.9.1 177-178|0.10.1 263-264|0.10.1.1 174-175|0.10.1.0 173-174|0.10.1.0.0 101-102|0.11.0 188-189|0.11.1 192-193|0.11.1.1 190-191|0.11.1.1.1 195-196|0.11.1.1.0 194-195|0.11.1.1.0.0 193-194|0.11.1.1.0.0.0 185-186|0.11.1.0 169-170|0.11.1.0.0 203-204|0.12.0 94-95|0.12.0.3 205-206|0.12.0.2 141-142|0.12.0.1 231-232|0.12.0.0 214-215|0.13.0 209-210|0.13.0.4 117-118|0.13.0.0 80-81|0.13.1 199-200|0.13.1.1 223-224|0.13.1.1.0 227-228|0.13.1.1.0.0 135-136|0.13.1.0 232-233|0.13.2 170-171|0.13.2.2 237-238|0.13.2.1 238-239|0.13.2.1.1 234-235|0.13.2.1.0 253-254|0.13.2.0 110-111|0.14.0 181-182|0.14.1 244-245|0.14.1.0 167-168|0.15.0.0 257-258|0.15.0.1 265-266|0.15.1.0 269-270|0.15.1.0.2+0.15.1.0.2.0 268-269|0.15.1.0.2.1 276-277|0.15.1.0.1 280-281|0.15.1.0.1.1 279-280|0.15.1.0.1.1.0 266-267|0.15.1.0.1.0 278-279|0.15.1.0.1.0.0 191-192|0.15.1.0.0 261-262|0.15.1.1 48-49|0.15.1.1.0 206-207|0.15.1.2 47-48|0.16.0 291-292|0.16.1.0 290-291|0.16.1.0.2 287-288|0.16.1.0.1 275-276|0.16.1.0.0 299-300|0.16.1.1 55-56|0.16.1.1.1 53-54|0.16.1.1.0 295-296|0.16.1.1.0.1 296-297|0.16.1.1.0.0 212-213|0.16.1.2 285-286|0.16.1.3 307-308|0.17.1 305-306|0.17.1.1 293-294|0.17.1.0 309-310|0.17.2 219-220|0.17.2.0 284-285|0.18 66-67|0.18.0+0.18.0.0 15-16|0.0.0.2 0-1|0.0.0.0+0.0.0.0.0 24-25|0.0.1.1.1.0 31-32|0.0.1.1.0.1 34-35|0.1.0.0+0.1.0.0.0 43-44|0.3.0.0+0.3.0.0.0 220-221|0.4 67-68|0.4.0+0.4.0.0 76-77|0.5.0.0+0.5.0.0.0 83-84|0.6.0+0.6.0.0 107-108|0.9+0.9.2 125-126|0.10.0+0.10.0.0 149-150|0.11.2+0.11.2.0 213-214|0.13.0.3 211-212|0.13.0.2 165-166|0.14.0.0+0.14.0.0.0 171-172|0.15.0 179-180|0.17.0+0.17.0.0 ::annotator Aligner v.03 ::date 2021-01-18T22:20:32.425
+# ::node	0	dummy	
+# ::node	0.0	multi-sentence	
+# ::node	0.0.0	and	8-9
+# ::node	0.0.0.0	person	0-1
+# ::node	0.0.0.0.0	speaker1	0-1
+# ::node	0.0.0.1	temporal-quantity	7-8
+# ::node	0.0.0.1.0	1	10-11
+# ::node	0.0.0.1.1	hour	7-8
+# ::node	0.0.0.2	show-up-02	15-16
+# ::node	0.0.0.2.0	person	27-28
+# ::node	0.0.0.2.0.0	some	26-27
+# ::node	0.0.1	tell-01	19-20
+# ::node	0.0.1.0	i	12-13
+# ::node	0.0.1.0.0	have-rel-role-91	
+# ::node	0.0.1.0.1	classmate	13-14
+# ::node	0.0.1.1	get-03	30-31
+# ::node	0.0.1.1.0	pain-01	
+# ::node	0.0.1.1.0.0	person	
+# ::node	0.0.1.1.0.1	serious-02	31-32
+# ::node	0.0.1.1.1	die-01	25-26
+# ::node	0.0.1.1.1.0	actual-02	24-25
+# ::node	0.0.1.2	you	20-21
+# ::node	0.1	multi-sentence	
+# ::node	0.1.0	go-back-19	
+# ::node	0.1.0.0	person	34-35
+# ::node	0.1.0.0.0	speaker2	34-35
+# ::node	0.1.0.0.0.0	you	37-38
+# ::node	0.1.0.1	there	36-37
+# ::node	0.1.0.2	expressive	17-18
+# ::node	0.1.1	come-01	41-42
+# ::node	0.1.1.0	someone	40-41
+# ::node	0.10	and	
+# ::node	0.10.0	person	125-126
+# ::node	0.10.0.0	speak-01	125-126
+# ::node	0.10.1	gordon	177-178
+# ::node	0.10.1.0	guy	174-175
+# ::node	0.10.1.0.0	some	173-174
+# ::node	0.10.1.1	possible-01	263-264
+# ::node	0.11	say-01	
+# ::node	0.11.0	i	101-102
+# ::node	0.11.1	contrast-01	188-189
+# ::node	0.11.1.0	remember-01	185-186
+# ::node	0.11.1.0.0	he	169-170
+# ::node	0.11.1.0.1	date-entity	
+# ::node	0.11.1.0.1.0	thursday	
+# ::node	0.11.1.1	touch-01	192-193
+# ::node	0.11.1.1.0	life	195-196
+# ::node	0.11.1.1.0.0	many	194-195
+# ::node	0.11.1.1.0.0.0	so	193-194
+# ::node	0.11.1.1.1	again	190-191
+# ::node	0.11.2	person	149-150
+# ::node	0.11.2.0	speak-01	149-150
+# ::node	0.12	post-scriptum	
+# ::node	0.12.0	know-02	203-204
+# ::node	0.12.0.0	you	231-232
+# ::node	0.12.0.1	ross	141-142
+# ::node	0.12.0.2	well-09	205-206
+# ::node	0.12.0.3	interrogative	94-95
+# ::node	0.13	multi-sentence	
+# ::node	0.13.0	know-02	214-215
+# ::node	0.13.0.0	i	117-118
+# ::node	0.13.0.1	person	
+# ::node	0.13.0.1.0	joke-01	
+# ::node	0.13.0.2	actual-02	211-212
+# ::node	0.13.0.3	bare	213-214
+# ::node	0.13.0.4	oh	209-210
+# ::node	0.13.1	come-01	80-81
+# ::node	0.13.1.0	i	135-136
+# ::node	0.13.1.1	cause-01	199-200
+# ::node	0.13.1.1.0	hear-01	223-224
+# ::node	0.13.1.1.0.0	news	227-228
+# ::node	0.13.2	know-01	232-233
+# ::node	0.13.2.0	you	253-254
+# ::node	0.13.2.1	see-05	237-238
+# ::node	0.13.2.1.0	he	234-235
+# ::node	0.13.2.1.1	anyone	238-239
+# ::node	0.13.2.2	interrogative	170-171
+# ::node	0.14	and	
+# ::node	0.14.0	yes	110-111
+# ::node	0.14.0.0	person	165-166
+# ::node	0.14.0.0.0	speak-01	165-166
+# ::node	0.14.1	i	181-182
+# ::node	0.14.1.0	he	244-245
+# ::node	0.15	multi-sentence	
+# ::node	0.15.0	speak-01	171-172
+# ::node	0.15.0.0	amr-unknown	167-168
+# ::node	0.15.0.1	you	257-258
+# ::node	0.15.1	possible-01	
+# ::node	0.15.1.0	ask-01	265-266
+# ::node	0.15.1.0.0	i	191-192
+# ::node	0.15.1.0.1	shave-01	276-277
+# ::node	0.15.1.0.1.0	you	266-267
+# ::node	0.15.1.0.1.0.0	beard	278-279
+# ::node	0.15.1.0.1.1	close-10	280-281
+# ::node	0.15.1.0.1.1.0	so	279-280
+# ::node	0.15.1.0.2	thing	269-270
+# ::node	0.15.1.0.2.0	question-01	269-270
+# ::node	0.15.1.0.2.1	personal-02	268-269
+# ::node	0.15.1.1	oh	261-262
+# ::node	0.15.1.1.0	expressive	48-49
+# ::node	0.15.1.2	interrogative	206-207
+# ::node	0.16	multi-sentence	
+# ::node	0.16.0	okay-01	47-48
+# ::node	0.16.1	say-01	
+# ::node	0.16.1.0	mourn-01	291-292
+# ::node	0.16.1.0.0	you	275-276
+# ::node	0.16.1.0.1	that	287-288
+# ::node	0.16.1.0.2	enough	290-291
+# ::node	0.16.1.1	bye	299-300
+# ::node	0.16.1.1.0	go-02	53-54
+# ::node	0.16.1.1.0.0	we	296-297
+# ::node	0.16.1.1.0.1	here	295-296
+# ::node	0.16.1.1.1	expressive	55-56
+# ::node	0.16.1.2	i	212-213
+# ::node	0.16.1.3	tommy	285-286
+# ::node	0.16.2	say-01	
+# ::node	0.17	multi-sentence	
+# ::node	0.17.0	person	179-180
+# ::node	0.17.0.0	speaker4	179-180
+# ::node	0.17.1	listen-01	307-308
+# ::node	0.17.1.0	you	293-294
+# ::node	0.17.1.1	hey	305-306
+# ::node	0.17.1.2	imperative	
+# ::node	0.17.2	call-02	309-310
+# ::node	0.17.2.0	i	219-220
+# ::node	0.17.2.1	imperative	
+# ::node	0.18	okay-01	284-285
+# ::node	0.18.0	person	66-67
+# ::node	0.18.0.0	expressive	66-67
+# ::node	0.18.0.1	lead-02	
+# ::node	0.2	multi-sentence	
+# ::node	0.2.0	okay-01	45-46
+# ::node	0.2.0.0	expressive	33-34
+# ::node	0.2.1	go-02	38-39
+# ::node	0.2.1.0	i	18-19
+# ::node	0.2.1.1	hide-01	54-55
+# ::node	0.2.1.2	oh	56-57
+# ::node	0.2.1.2.0	expressive	39-40
+# ::node	0.2.2	say-01	
+# ::node	0.2.2.0	excite-01	61-62
+# ::node	0.2.2.0.0	this	58-59
+# ::node	0.2.2.0.1	so	60-61
+# ::node	0.2.2.1	person	65-66
+# ::node	0.2.2.1.0	have-rel-role-91	65-66
+# ::node	0.2.2.1.0.0	i	23-24
+# ::node	0.2.2.1.0.1	mourner	65-66
+# ::node	0.2.2.1.1	first	64-65
+# ::node	0.3	multi-sentence	
+# ::node	0.3.0	hi	69-70
+# ::node	0.3.0.0	person	43-44
+# ::node	0.3.0.0.0	speak-01	43-44
+# ::node	0.3.1	glad-02	71-72
+# ::node	0.3.1.0	possible-01	73-74
+# ::node	0.3.1.0.0	come-01	74-75
+# ::node	0.3.1.0.0.0	you	72-73
+# ::node	0.4	come-in-07	220-221
+# ::node	0.4.0	person	67-68
+# ::node	0.4.0.0	speak-01	67-68
+# ::node	0.4.1	imperative	
+# ::node	0.5	multi-sentence	
+# ::node	0.5.0	say-01	
+# ::node	0.5.0.0	person	76-77
+# ::node	0.5.0.0.0	speak-01	76-77
+# ::node	0.5.0.1	hi	85-86
+# ::node	0.5.1	bing	91-92
+# ::node	0.5.1.0	i	49-50
+# ::node	0.5.1.1	request-confirmation-91	
+# ::node	0.5.1.2	you	87-88
+# ::node	0.5.2	be-located-at-91	
+# ::node	0.5.2.0	gordon	99-100
+# ::node	0.5.2.1	class	105-106
+# ::node	0.6	and	
+# ::node	0.6.0	person	83-84
+# ::node	0.6.0.0	speak-01	83-84
+# ::node	0.6.1	let-01	116-117
+# ::node	0.6.1.0	you	202-203
+# ::node	0.6.1.1	take-01	121-122
+# ::node	0.6.1.1.0	i	63-64
+# ::node	0.6.1.1.1	coat	123-124
+# ::node	0.6.1.2	oh	109-110
+# ::node	0.6.1.2.0	expressive	42-43
+# ::node	0.6.1.3	imperative	
+# ::node	0.7	and	
+# ::node	0.7.0	thank-01	127-128
+# ::node	0.7.0.0	i	95-96
+# ::node	0.7.0.1	person	
+# ::node	0.7.1	say-01	
+# ::node	0.7.1.0	sorry-01	139-140
+# ::node	0.7.1.0.0	event	
+# ::node	0.7.1.0.0.0	anymore	
+# ::node	0.7.1.0.1	so	138-139
+# ::node	0.7.1.1	sharp-02	
+# ::node	0.8	and	
+# ::node	0.8.0	do-02	155-156
+# ::node	0.8.0.0	he	153-154
+# ::node	0.8.0.1	thing	158-159
+# ::node	0.8.0.1.0	love-01	158-159
+# ::node	0.8.0.2	at-least	
+# ::node	0.8.1	watch-01	162-163
+# ::node	0.8.1.0	blimp	163-164
+# ::node	0.9	person	107-108
+# ::node	0.9.0	amr-unknown	156-157
+# ::node	0.9.1	he	157-158
+# ::node	0.9.2	speaker1	107-108
+# ::root	0	dummy
+# ::edge	and	op1	do-02	0.8	0.8.0	
+# ::edge	and	op1	person	0.0.0	0.0.0.0	
+# ::edge	and	op1	person	0.10	0.10.0	
+# ::edge	and	op1	person	0.6	0.6.0	
+# ::edge	and	op1	temporal-quantity	0.0.0	0.0.0.1	
+# ::edge	and	op1	thank-01	0.7	0.7.0	
+# ::edge	and	op1	yes	0.14	0.14.0	
+# ::edge	and	op2	gordon	0.10	0.10.1	
+# ::edge	and	op2	i	0.14	0.14.1	
+# ::edge	and	op2	let-01	0.6	0.6.1	
+# ::edge	and	op2	say-01	0.7	0.7.1	
+# ::edge	and	op2	show-up-02	0.0.0	0.0.0.2	
+# ::edge	and	op2	watch-01	0.8	0.8.1	
+# ::edge	ask-01	ARG0	i	0.15.1.0	0.15.1.0.0	
+# ::edge	ask-01	ARG1	shave-01	0.15.1.0	0.15.1.0.1	
+# ::edge	ask-01	ARG1	thing	0.15.1.0	0.15.1.0.2	
+# ::edge	ask-01	ARG2	you	0.15.1.0	0.15.1.0.1.0	
+# ::edge	be-located-at-91	ARG2	class	0.5.2	0.5.2.1	
+# ::edge	be-located-at-91	ARG2	gordon	0.5.2	0.5.2.0	
+# ::edge	bing	ARG0	i	0.5.1	0.5.1.0	
+# ::edge	bing	ARG1-of	request-confirmation-91	0.5.1	0.5.1.1	
+# ::edge	bing	ARG2	you	0.5.1	0.5.1.2	
+# ::edge	bye	domain	go-02	0.16.1.1	0.16.1.1.0	
+# ::edge	bye	mode	expressive	0.16.1.1	0.16.1.1.1	
+# ::edge	call-02	ARG1	i	0.17.2	0.17.2.0	
+# ::edge	call-02	mode	imperative	0.17.2	0.17.2.1	
+# ::edge	cause-01	ARG0	hear-01	0.13.1.1	0.13.1.1.0	
+# ::edge	class	poss	you	0.5.2.1	0.5.1.2	
+# ::edge	close-10	ARG2	beard	0.15.1.0.1.1	0.15.1.0.1.0.0	
+# ::edge	close-10	degree	so	0.15.1.0.1.1	0.15.1.0.1.1.0	
+# ::edge	come-01	ARG1	i	0.13.1	0.13.1.0	
+# ::edge	come-01	ARG1	someone	0.1.1	0.1.1.0	
+# ::edge	come-01	ARG1	you	0.3.1.0.0	0.3.1.0.0.0	
+# ::edge	come-01	ARG1-of	cause-01	0.13.1	0.13.1.1	
+# ::edge	come-in-07	ARG1	person	0.4	0.4.0	
+# ::edge	come-in-07	mode	imperative	0.4	0.4.1	
+# ::edge	contrast-01	ARG1	remember-01	0.11.1	0.11.1.0	
+# ::edge	contrast-01	ARG2	touch-01	0.11.1	0.11.1.1	
+# ::edge	date-entity	weekday	thursday	0.11.1.0.1	0.11.1.0.1.0	
+# ::edge	die-01	ARG1	i	0.0.1.1.1	0.0.1.0	
+# ::edge	die-01	ARG1-of	actual-02	0.0.1.1.1	0.0.1.1.1.0	
+# ::edge	do-02	ARG0	he	0.8.0	0.8.0.0	
+# ::edge	do-02	ARG1	thing	0.8.0	0.8.0.1	
+# ::edge	do-02	mod	at-least	0.8.0	0.8.0.2	
+# ::edge	dummy	s1	multi-sentence	0	0.0	
+# ::edge	dummy	s1	multi-sentence	0	0.2	
+# ::edge	dummy	s1	person	0	0.9	
+# ::edge	dummy	s1	say-01	0	0.11	
+# ::edge	dummy	s2	and	0	0.10	
+# ::edge	dummy	s2	and	0	0.6	
+# ::edge	dummy	s2	and	0	0.8	
+# ::edge	dummy	s2	come-in-07	0	0.4	
+# ::edge	dummy	s2	multi-sentence	0	0.1	
+# ::edge	dummy	s2	multi-sentence	0	0.16	
+# ::edge	dummy	s2	okay-01	0	0.18	
+# ::edge	dummy	s3	and	0	0.14	
+# ::edge	dummy	s3	multi-sentence	0	0.3	
+# ::edge	dummy	s3	post-scriptum	0	0.12	
+# ::edge	dummy	s4	and	0	0.7	
+# ::edge	dummy	s4	multi-sentence	0	0.13	
+# ::edge	dummy	s4	multi-sentence	0	0.15	
+# ::edge	dummy	s4	multi-sentence	0	0.17	
+# ::edge	dummy	s4	multi-sentence	0	0.5	
+# ::edge	event	mod	anymore	0.7.1.0.0	0.7.1.0.0.0	
+# ::edge	excite-01	ARG0	this	0.2.2.0	0.2.2.0.0	
+# ::edge	excite-01	degree	so	0.2.2.0	0.2.2.0.1	
+# ::edge	get-03	ARG2	pain-01	0.0.1.1	0.0.1.1.0	
+# ::edge	get-03	time	die-01	0.0.1.1	0.0.1.1.1	
+# ::edge	glad-02	ARG0	possible-01	0.3.1	0.3.1.0	
+# ::edge	go-02	ARG0	i	0.2.1	0.2.1.0	
+# ::edge	go-02	ARG0	we	0.16.1.1.0	0.16.1.1.0.0	
+# ::edge	go-02	ARG1	hide-01	0.2.1	0.2.1.1	
+# ::edge	go-02	ARG4	here	0.16.1.1.0	0.16.1.1.0.1	
+# ::edge	go-02	mod	oh	0.2.1	0.2.1.2	
+# ::edge	go-back-19	ARG1	person	0.1.0	0.1.0.0	
+# ::edge	go-back-19	ARG2	there	0.1.0	0.1.0.1	
+# ::edge	go-back-19	mode	expressive	0.1.0	0.1.0.2	
+# ::edge	gordon	domain	guy	0.10.1	0.10.1.0	
+# ::edge	gordon	domain	possible-01	0.10.1	0.10.1.1	
+# ::edge	guy	mod	some	0.10.1.0	0.10.1.0.0	
+# ::edge	have-rel-role-91	ARG1	i	0.2.2.1.0	0.2.2.1.0.0	
+# ::edge	have-rel-role-91	ARG2	mourner	0.2.2.1.0	0.2.2.1.0.1	
+# ::edge	hear-01	ARG0	i	0.13.1.1.0	0.13.1.0	
+# ::edge	hear-01	ARG1	news	0.13.1.1.0	0.13.1.1.0.0	
+# ::edge	hi	mode	person	0.3.0	0.3.0.0	
+# ::edge	hide-01	ARG0	i	0.2.1.1	0.2.1.0	
+# ::edge	i	ARG1-of	have-rel-role-91	0.0.1.0	0.0.1.0.0	
+# ::edge	i	domain	he	0.14.1	0.14.1.0	
+# ::edge	i	poss-of	classmate	0.0.1.0	0.0.1.0.1	
+# ::edge	know-01	ARG0	you	0.13.2	0.13.2.0	
+# ::edge	know-01	ARG1	see-05	0.13.2	0.13.2.1	
+# ::edge	know-01	mode	interrogative	0.13.2	0.13.2.2	
+# ::edge	know-02	ARG0	i	0.13.0	0.13.0.0	
+# ::edge	know-02	ARG0	you	0.12.0	0.12.0.0	
+# ::edge	know-02	ARG1	person	0.13.0	0.13.0.1	
+# ::edge	know-02	ARG1	ross	0.12.0	0.12.0.1	
+# ::edge	know-02	ARG1-of	actual-02	0.13.0	0.13.0.2	
+# ::edge	know-02	ARG1-of	well-09	0.12.0	0.12.0.2	
+# ::edge	know-02	degree	bare	0.13.0	0.13.0.3	
+# ::edge	know-02	mod	oh	0.13.0	0.13.0.4	
+# ::edge	know-02	mode	interrogative	0.12.0	0.12.0.3	
+# ::edge	let-01	ARG0	you	0.6.1	0.6.1.0	
+# ::edge	let-01	ARG1	take-01	0.6.1	0.6.1.1	
+# ::edge	let-01	mod	oh	0.6.1	0.6.1.2	
+# ::edge	let-01	mode	imperative	0.6.1	0.6.1.3	
+# ::edge	life	quant	many	0.11.1.1.0	0.11.1.1.0.0	
+# ::edge	listen-01	ARG0	you	0.17.1	0.17.1.0	
+# ::edge	listen-01	mod	hey	0.17.1	0.17.1.1	
+# ::edge	listen-01	mode	imperative	0.17.1	0.17.1.2	
+# ::edge	love-01	ARG0	he	0.8.0.1.0	0.8.0.0	
+# ::edge	many	degree	so	0.11.1.1.0.0	0.11.1.1.0.0.0	
+# ::edge	mourn-01	domain	that	0.16.1.0	0.16.1.0.1	
+# ::edge	mourn-01	domain	you	0.16.1.0	0.16.1.0.0	
+# ::edge	mourn-01	quant	enough	0.16.1.0	0.16.1.0.2	
+# ::edge	multi-sentence	snt1	and	0.0	0.0.0	
+# ::edge	multi-sentence	snt1	go-back-19	0.1	0.1.0	
+# ::edge	multi-sentence	snt1	hi	0.3	0.3.0	
+# ::edge	multi-sentence	snt1	know-02	0.13	0.13.0	
+# ::edge	multi-sentence	snt1	okay-01	0.16	0.16.0	
+# ::edge	multi-sentence	snt1	okay-01	0.2	0.2.0	
+# ::edge	multi-sentence	snt1	person	0.17	0.17.0	
+# ::edge	multi-sentence	snt1	say-01	0.5	0.5.0	
+# ::edge	multi-sentence	snt1	speak-01	0.15	0.15.0	
+# ::edge	multi-sentence	snt2	bing	0.5	0.5.1	
+# ::edge	multi-sentence	snt2	come-01	0.1	0.1.1	
+# ::edge	multi-sentence	snt2	come-01	0.13	0.13.1	
+# ::edge	multi-sentence	snt2	glad-02	0.3	0.3.1	
+# ::edge	multi-sentence	snt2	go-02	0.2	0.2.1	
+# ::edge	multi-sentence	snt2	listen-01	0.17	0.17.1	
+# ::edge	multi-sentence	snt2	possible-01	0.15	0.15.1	
+# ::edge	multi-sentence	snt2	say-01	0.16	0.16.1	
+# ::edge	multi-sentence	snt2	tell-01	0.0	0.0.1	
+# ::edge	multi-sentence	snt3	be-located-at-91	0.5	0.5.2	
+# ::edge	multi-sentence	snt3	call-02	0.17	0.17.2	
+# ::edge	multi-sentence	snt3	know-01	0.13	0.13.2	
+# ::edge	multi-sentence	snt3	say-01	0.16	0.16.2	
+# ::edge	multi-sentence	snt3	say-01	0.2	0.2.2	
+# ::edge	oh	mode	expressive	0.15.1.1	0.15.1.1.0	
+# ::edge	oh	mode	expressive	0.2.1.2	0.2.1.2.0	
+# ::edge	oh	mode	expressive	0.6.1.2	0.6.1.2.0	
+# ::edge	okay-01	ARG1	expressive	0.2.0	0.2.0.0	
+# ::edge	okay-01	ARG2	person	0.18	0.18.0	
+# ::edge	pain-01	ARG1	person	0.0.1.1.0	0.0.0.2.0	
+# ::edge	pain-01	ARG1	person	0.0.1.1.0	0.0.1.1.0.0	
+# ::edge	pain-01	ARG1-of	serious-02	0.0.1.1.0	0.0.1.1.0.1	
+# ::edge	person	ARG0-of	expressive	0.18.0	0.18.0.0	
+# ::edge	person	ARG0-of	have-rel-role-91	0.2.2.1	0.2.2.1.0	
+# ::edge	person	ARG0-of	joke-01	0.13.0.1	0.13.0.1.0	
+# ::edge	person	ARG0-of	lead-02	0.18.0	0.18.0.1	
+# ::edge	person	ARG0-of	speak-01	0.10.0	0.10.0.0	
+# ::edge	person	ARG0-of	speak-01	0.11.2	0.11.2.0	
+# ::edge	person	ARG0-of	speak-01	0.14.0.0	0.14.0.0.0	
+# ::edge	person	ARG0-of	speak-01	0.3.0.0	0.3.0.0.0	
+# ::edge	person	ARG0-of	speak-01	0.4.0	0.4.0.0	
+# ::edge	person	ARG0-of	speak-01	0.5.0.0	0.5.0.0.0	
+# ::edge	person	ARG0-of	speak-01	0.6.0	0.6.0.0	
+# ::edge	person	ARG0-of	speaker2	0.1.0.0	0.1.0.0.0	
+# ::edge	person	ARG0-of	speaker4	0.17.0	0.17.0.0	
+# ::edge	person	domain	amr-unknown	0.9	0.9.0	
+# ::edge	person	domain	he	0.9	0.9.1	
+# ::edge	person	mod	some	0.0.0.2.0	0.0.0.2.0.0	
+# ::edge	person	name	speaker1	0.0.0.0	0.0.0.0.0	
+# ::edge	person	name	speaker1	0.9	0.9.2	
+# ::edge	person	quant	first	0.2.2.1	0.2.2.1.1	
+# ::edge	possible-01	ARG1	ask-01	0.15.1	0.15.1.0	
+# ::edge	possible-01	ARG1	come-01	0.3.1.0	0.3.1.0.0	
+# ::edge	possible-01	mod	oh	0.15.1	0.15.1.1	
+# ::edge	possible-01	mode	interrogative	0.15.1	0.15.1.2	
+# ::edge	post-scriptum	domain	know-02	0.12	0.12.0	
+# ::edge	remember-01	ARG0	i	0.11.1.0	0.11.0	
+# ::edge	remember-01	ARG1	he	0.11.1.0	0.11.1.0.0	
+# ::edge	remember-01	time	date-entity	0.11.1.0	0.11.1.0.1	
+# ::edge	say-01	ARG0	i	0.11	0.11.0	
+# ::edge	say-01	ARG0	mourn-01	0.16.1	0.16.1.0	
+# ::edge	say-01	ARG0	person	0.5.0	0.5.0.0	
+# ::edge	say-01	ARG1	bye	0.16.1	0.16.1.1	
+# ::edge	say-01	ARG1	contrast-01	0.11	0.11.1	
+# ::edge	say-01	ARG1	excite-01	0.2.2	0.2.2.0	
+# ::edge	say-01	ARG1	hi	0.5.0	0.5.0.1	
+# ::edge	say-01	ARG1	sorry-01	0.7.1	0.7.1.0	
+# ::edge	say-01	ARG1-of	sharp-02	0.7.1	0.7.1.1	
+# ::edge	say-01	ARG2	i	0.16.1	0.16.1.2	
+# ::edge	say-01	ARG2	person	0.11	0.11.2	
+# ::edge	say-01	ARG2	person	0.2.2	0.2.2.1	
+# ::edge	say-01	ARG2	tommy	0.16.1	0.16.1.3	
+# ::edge	see-05	ARG0	he	0.13.2.1	0.13.2.1.0	
+# ::edge	see-05	ARG1	anyone	0.13.2.1	0.13.2.1.1	
+# ::edge	shave-01	ARG0	you	0.15.1.0.1	0.15.1.0.1.0	
+# ::edge	shave-01	ARG2	beard	0.15.1.0.1	0.15.1.0.1.0.0	
+# ::edge	shave-01	location	close-10	0.15.1.0.1	0.15.1.0.1.1	
+# ::edge	show-up-02	ARG1	person	0.0.0.2	0.0.0.2.0	
+# ::edge	sorry-01	ARG1	i	0.7.1.0	0.7.0.0	
+# ::edge	sorry-01	ARG2	event	0.7.1.0	0.7.1.0.0	
+# ::edge	sorry-01	degree	so	0.7.1.0	0.7.1.0.1	
+# ::edge	speak-01	ARG1	amr-unknown	0.15.0	0.15.0.0	
+# ::edge	speak-01	ARG2	you	0.15.0	0.15.0.1	
+# ::edge	speaker2	ARG1	you	0.1.0.0.0	0.1.0.0.0.0	
+# ::edge	take-01	ARG0	i	0.6.1.1	0.6.1.1.0	
+# ::edge	take-01	ARG1	coat	0.6.1.1	0.6.1.1.1	
+# ::edge	tell-01	ARG0	i	0.0.1	0.0.1.0	
+# ::edge	tell-01	ARG1	get-03	0.0.1	0.0.1.1	
+# ::edge	tell-01	ARG2	you	0.0.1	0.0.1.2	
+# ::edge	temporal-quantity	quant	1	0.0.0.1	0.0.0.1.0	
+# ::edge	temporal-quantity	unit	hour	0.0.0.1	0.0.0.1.1	
+# ::edge	thank-01	ARG0	i	0.7.0	0.7.0.0	
+# ::edge	thank-01	ARG1	person	0.7.0	0.7.0.1	
+# ::edge	thing	ARG1-of	love-01	0.8.0.1	0.8.0.1.0	
+# ::edge	thing	ARG1-of	personal-02	0.15.1.0.2	0.15.1.0.2.1	
+# ::edge	thing	ARG1-of	question-01	0.15.1.0.2	0.15.1.0.2.0	
+# ::edge	touch-01	ARG0	i	0.11.1.1	0.11.0	
+# ::edge	touch-01	ARG1	life	0.11.1.1	0.11.1.1.0	
+# ::edge	touch-01	mod	again	0.11.1.1	0.11.1.1.1	
+# ::edge	watch-01	ARG0	he	0.8.1	0.8.0.0	
+# ::edge	watch-01	ARG1	blimp	0.8.1	0.8.1.0	
+# ::edge	yes	domain	person	0.14.0	0.14.0.0	
+# ::edge	you	part	beard	0.15.1.0.1.0	0.15.1.0.1.0.0	
+(c00 / dummy
+      :s1 (c1-0 / multi-sentence
+            :snt1 (c1-1 / and
+                  :op1 (c1-3 / person
+                        :name (c1-9 / speaker1))
+                  :op1 (c1-4 / temporal-quantity
+                        :quant 1
+                        :unit (c1-11 / hour))
+                  :op2 (c1-5 / show-up-02
+                        :ARG1 (c1-12 / person
+                              :mod (c1-17 / some))))
+            :snt2 (c1-2 / tell-01
+                  :ARG0 (c1-7 / i
+                        :ARG1-of (c1-15 / have-rel-role-91)
+                        :poss-of (c1-16 / classmate))
+                  :ARG1 (c1-6 / get-03
+                        :ARG2 (c1-13 / pain-01
+                              :ARG1 c1-12
+                              :ARG1 (c1-18 / person)
+                              :ARG1-of (c1-19 / serious-02))
+                        :time (c1-14 / die-01
+                              :ARG1 c1-7
+                              :ARG1-of (c1-20 / actual-02)))
+                  :ARG2 (c1-8 / you)))
+      :s2 (c2-0 / multi-sentence
+            :snt1 (c2-1 / go-back-19
+                  :ARG1 (c2-3 / person
+                        :ARG0-of (c2-7 / speaker2
+                              :ARG1 (c2-8 / you)))
+                  :ARG2 (c2-4 / there)
+                  :mode expressive)
+            :snt2 (c2-2 / come-01
+                  :ARG1 (c2-6 / someone)))
+      :s1 (c3-0 / multi-sentence
+            :snt1 (c3-1 / okay-01
+                  :ARG1 expressive)
+            :snt2 (c3-2 / go-02
+                  :ARG0 (c3-6 / i)
+                  :ARG1 (c3-5 / hide-01
+                        :ARG0 c3-6)
+                  :mod (c3-7 / oh
+                        :mode expressive))
+            :snt3 (c3-3 / say-01
+                  :ARG1 (c3-8 / excite-01
+                        :ARG0 (c3-11 / this)
+                        :degree (c3-12 / so))
+                  :ARG2 (c3-9 / person
+                        :ARG0-of (c3-13 / have-rel-role-91
+                              :ARG1 (c3-15 / i)
+                              :ARG2 (c3-16 / mourner))
+                        :quant (c3-14 / first))))
+      :s3 (c4-0 / multi-sentence
+            :snt1 (c4-1 / hi
+                  :mode (c4-3 / person
+                        :ARG0-of (c4-5 / speak-01)))
+            :snt2 (c4-2 / glad-02
+                  :ARG0 (c4-4 / possible-01
+                        :ARG1 (c4-6 / come-01
+                              :ARG1 (c4-7 / you)))))
+      :s2 (c5-0 / come-in-07
+            :ARG1 (c5-1 / person
+                  :ARG0-of (c5-3 / speak-01))
+            :mode imperative)
+      :s4 (c6-0 / multi-sentence
+            :snt1 (c6-1 / say-01
+                  :ARG0 (c6-5 / person
+                        :ARG0-of (c6-11 / speak-01))
+                  :ARG1 (c6-4 / hi))
+            :snt2 (c6-2 / bing
+                  :ARG0 (c6-6 / i)
+                  :ARG1-of (c6-7 / request-confirmation-91)
+                  :ARG2 (c6-8 / you))
+            :snt3 (c6-3 / be-located-at-91
+                  :ARG2 (c6-9 / gordon)
+                  :ARG2 (c6-10 / class
+                        :poss c6-8)))
+      :s2 (c7-0 / and
+            :op1 (c7-1 / person
+                  :ARG0-of (c7-3 / speak-01))
+            :op2 (c7-2 / let-01
+                  :ARG0 (c7-5 / you)
+                  :ARG1 (c7-4 / take-01
+                        :ARG0 (c7-9 / i)
+                        :ARG1 (c7-8 / coat))
+                  :mod (c7-6 / oh
+                        :mode expressive)
+                  :mode imperative))
+      :s4 (c8-0 / and
+            :op1 (c8-1 / thank-01
+                  :ARG0 (c8-4 / i)
+                  :ARG1 (c8-3 / person))
+            :op2 (c8-2 / say-01
+                  :ARG1 (c8-5 / sorry-01
+                        :ARG1 c8-4
+                        :ARG2 (c8-7 / event
+                              :mod (c8-9 / anymore))
+                        :degree (c8-8 / so))
+                  :ARG1-of (c8-6 / sharp-02)))
+      :s2 (c9-0 / and
+            :op1 (c9-1 / do-02
+                  :ARG0 (c9-4 / he)
+                  :ARG1 (c9-3 / thing
+                        :ARG1-of (c9-7 / love-01
+                              :ARG0 c9-4))
+                  :mod (c9-5 / at-least))
+            :op2 (c9-2 / watch-01
+                  :ARG0 c9-4
+                  :ARG1 (c9-6 / blimp)))
+      :s1 (c10-0 / person
+            :domain (c10-2 / amr-unknown)
+            :domain (c10-3 / he)
+            :name (c10-1 / speaker1))
+      :s2 (c11-0 / and
+            :op1 (c11-1 / person
+                  :ARG0-of (c11-3 / speak-01))
+            :op2 (c11-2 / gordon
+                  :domain (c11-4 / guy
+                        :mod (c11-6 / some))
+                  :domain (c11-5 / possible-01)))
+      :s1 (c12-0 / say-01
+            :ARG0 (c12-2 / i)
+            :ARG1 (c12-1 / contrast-01
+                  :ARG1 (c12-4 / remember-01
+                        :ARG0 c12-2
+                        :ARG1 (c12-7 / he)
+                        :time (c12-8 / date-entity
+                              :weekday (t / thursday)))
+                  :ARG2 (c12-5 / touch-01
+                        :ARG0 c12-2
+                        :ARG1 (c12-9 / life
+                              :quant (c12-11 / many
+                                    :degree (c12-12 / so)))
+                        :mod (c12-10 / again)))
+            :ARG2 (c12-3 / person
+                  :ARG0-of (c12-6 / speak-01)))
+      :s3 (c13-0 / post-scriptum
+            :domain (c13-1 / know-02
+                  :ARG0 (c13-3 / you)
+                  :ARG1 (c13-2 / ross)
+                  :ARG1-of (c13-4 / well-09)
+                  :mode interrogative))
+      :s4 (c14-0 / multi-sentence
+            :snt1 (c14-1 / know-02
+                  :ARG0 (c14-5 / i)
+                  :ARG1 (c14-4 / person
+                        :ARG0-of (c14-14 / joke-01))
+                  :ARG1-of (c14-7 / actual-02)
+                  :degree (c14-8 / bare)
+                  :mod (c14-6 / oh))
+            :snt2 (c14-2 / come-01
+                  :ARG1 (c14-9 / i)
+                  :ARG1-of (c14-10 / cause-01
+                        :ARG0 (c14-15 / hear-01
+                              :ARG0 c14-9
+                              :ARG1 (c14-18 / news))))
+            :snt3 (c14-3 / know-01
+                  :ARG0 (c14-12 / you)
+                  :ARG1 (c14-11 / see-05
+                        :ARG0 (c14-17 / he)
+                        :ARG1 (c14-16 / anyone))
+                  :mode interrogative))
+      :s3 (c15-0 / and
+            :op1 (c15-1 / yes
+                  :domain (c15-3 / person
+                        :ARG0-of (c15-5 / speak-01)))
+            :op2 (c15-2 / i
+                  :domain (c15-4 / he)))
+      :s4 (c16-0 / multi-sentence
+            :snt1 (c16-1 / speak-01
+                  :ARG1 (c16-3 / amr-unknown)
+                  :ARG2 (c16-4 / you))
+            :snt2 (c16-2 / possible-01
+                  :ARG1 (c16-5 / ask-01
+                        :ARG0 (c16-10 / i)
+                        :ARG1 (c16-8 / shave-01
+                              :ARG0 (c16-11 / you
+                                    :part (c16-13 / beard))
+                              :ARG2 c16-13
+                              :location (c16-14 / close-10
+                                    :ARG2 c16-13
+                                    :degree (c16-17 / so)))
+                        :ARG1 (c16-9 / thing
+                              :ARG1-of (c16-15 / question-01)
+                              :ARG1-of (c16-16 / personal-02))
+                        :ARG2 c16-11)
+                  :mod (c16-6 / oh
+                        :mode expressive)
+                  :mode interrogative))
+      :s2 (c17-0 / multi-sentence
+            :snt1 (c17-1 / okay-01)
+            :snt2 (c17-2 / say-01
+                  :ARG0 (c17-5 / mourn-01
+                        :domain (c17-11 / you)
+                        :domain (c17-12 / that)
+                        :quant (c17-10 / enough))
+                  :ARG1 (c17-4 / bye
+                        :domain (c17-9 / go-02
+                              :ARG0 (c17-13 / we)
+                              :ARG4 (c17-14 / here))
+                        :mode expressive)
+                  :ARG2 (c17-6 / i)
+                  :ARG2 (c17-7 / tommy))
+            :snt3 (c17-3 / say-01))
+      :s4 (c18-0 / multi-sentence
+            :snt1 (c18-1 / person
+                  :ARG0-of (c18-4 / speaker4))
+            :snt2 (c18-2 / listen-01
+                  :ARG0 (c18-5 / you)
+                  :mod (c18-6 / hey)
+                  :mode imperative)
+            :snt3 (c18-3 / call-02
+                  :ARG1 (c18-8 / i)
+                  :mode imperative))
+      :s2 (c19-0 / okay-01
+            :ARG2 (c19-1 / person
+                  :ARG0-of expressive
+                  :ARG0-of (c19-3 / lead-02))))

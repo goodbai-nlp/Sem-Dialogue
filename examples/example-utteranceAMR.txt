@@ -1,0 +1,367 @@
+# ::id 0
+# ::snt speaker1 : it ' s been an hour and not one of my classmates has shown up ! i tell you , when i actually die some people are gonna get seriously haunted !
+# ::tokens ["speaker1", ":", "it", "'", "s", "been", "an", "hour", "and", "not", "one", "of", "my", "classmates", "has", "shown-up", "!", "i", "tell", "you", ",", "when", "i", "actually", "die", "some", "people", "are", "gon", "na", "get", "seriously", "haunted", "!"]
+# ::lemmas ["speaker1", ":", "it", "'", "be", "be", "a", "hour", "and", "not", "one", "of", "my", "classmate", "have", "show-up", "!", "i", "tell", "you", ",", "when", "i", "actually", "die", "some", "people", "be", "gon", "na", "get", "seriously", "haunted", "!"]
+# ::pos_tags ["NN", ":", "PRP", "''", "VBZ", "VBN", "DT", "NN", "CC", "RB", "CD", "IN", "PRP$", "NNS", "VBZ", "COMP", ".", "FW", "VBP", "PRP", ",", "WRB", "FW", "RB", "VB", "DT", "NNS", "VBP", "VBG", "TO", "VB", "RB", "JJ", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "DURATION", "DURATION", "O", "O", "NUMBER", "O", "O", "O", "O", "0", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::abstract_map {}
+(c0 / multi-sentence
+      :snt1 (c1 / and
+            :op1 (c3 / person
+                  :name (c9 / speaker1))
+            :op1 (c4 / temporal-quantity
+                  :quant 1
+                  :unit (c11 / hour))
+            :op2 (c5 / show-up-02
+                  :ARG1 (c12 / person
+                        :mod (c17 / some))))
+      :snt2 (c2 / tell-01
+            :ARG0 (c7 / i
+                  :ARG1-of (c15 / have-rel-role-91)
+                  :poss-of (c16 / classmate))
+            :ARG1 (c6 / get-03
+                  :ARG2 (c13 / pain-01
+                        :ARG1 c12
+                        :ARG1 (c18 / person)
+                        :ARG1-of (c19 / serious-02))
+                  :time (c14 / die-01
+                        :ARG1 c7
+                        :ARG1-of (c20 / actual-02)))
+            :ARG2 (c8 / you)))
+
+# ::id 1
+# ::snt speaker2 : there you go ! someone came !
+# ::tokens ["speaker2", ":", "there", "you", "go", "!", "someone", "came", "!"]
+# ::lemmas ["speaker2", ":", "there", "you", "go", "!", "someone", "come", "!"]
+# ::pos_tags ["NN", ":", "EX", "PRP", "VBP", ".", "NN", "VBD", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::abstract_map {}
+(c0 / multi-sentence
+      :snt1 (c1 / go-back-19
+            :ARG1 (c3 / person
+                  :ARG0-of (c7 / speaker2
+                        :ARG1 (c8 / you)))
+            :ARG2 (c4 / there)
+            :mode expressive)
+      :snt2 (c2 / come-01
+            :ARG1 (c6 / someone)))
+
+# ::id 2
+# ::snt speaker1 : ok , ok ! i ' m gonna go hide ! oh , this is so exciting , my first mourner !
+# ::tokens ["speaker1", ":", "ok", ",", "ok", "!", "i", "'", "m", "gon", "na", "go", "hide", "!", "oh", ",", "this", "is", "so", "exciting", ",", "my", "1", "mourner", "!"]
+# ::lemmas ["speaker1", ":", "ok", ",", "ok", "!", "i", "'", "m", "gon", "na", "go", "hide", "!", "oh", ",", "this", "be", "so", "exciting", ",", "my", "1", "mourner", "!"]
+# ::pos_tags ["NN", ":", "NN", ",", "NN", ".", "FW", "''", "NN", "VBG", "TO", "VB", "VB", ".", "UH", ",", "DT", "VBZ", "RB", "JJ", ",", "PRP$", "CD", "NN", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "ORDINAL", "O", "O"]
+# ::abstract_map {}
+(c0 / multi-sentence
+      :snt1 (c1 / okay-01
+            :ARG1 expressive)
+      :snt2 (c2 / go-02
+            :ARG0 (c6 / i)
+            :ARG1 (c5 / hide-01
+                  :ARG0 c6)
+            :mod (c7 / oh
+                  :mode expressive))
+      :snt3 (c3 / say-01
+            :ARG1 (c8 / excite-01
+                  :ARG0 (c11 / this)
+                  :degree (c12 / so))
+            :ARG2 (c9 / person
+                  :ARG0-of (c13 / have-rel-role-91
+                        :ARG1 (c15 / i)
+                        :ARG2 (c16 / mourner))
+                  :quant (c14 / first))))
+
+# ::id 3
+# ::snt speaker3 : hi , glad you could come .
+# ::tokens ["speaker3", ":", "hi", ",", "glad", "you", "could", "come", "."]
+# ::lemmas ["speaker3", ":", "hi", ",", "glad", "you", "could", "come", "."]
+# ::pos_tags ["NN", ":", "UH", ",", "JJ", "PRP", "MD", "VB", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::abstract_map {}
+(c0 / multi-sentence
+      :snt1 (c1 / hi
+            :mode (c3 / person
+                  :ARG0-of (c5 / speak-01)))
+      :snt2 (c2 / glad-02
+            :ARG0 (c4 / possible-01
+                  :ARG1 (c6 / come-01
+                        :ARG1 (c7 / you)))))
+
+# ::id 4
+# ::snt speaker2 : please , come in .
+# ::tokens ["speaker2", ":", "please", ",", "come-in", "."]
+# ::lemmas ["speaker2", ":", "please", ",", "come-in", "."]
+# ::pos_tags ["NN", ":", "VB", ",", "COMP", "."]
+# ::ner_tags ["O", "O", "O", "O", "0", "O"]
+# ::abstract_map {}
+(c0 / come-in-07
+      :ARG1 (c1 / person
+            :ARG0-of (c3 / speak-01))
+      :mode imperative)
+
+# ::id 5
+# ::snt speaker4 : hi , you ' re chandler bing , right ? i ' m tom gordon , i was in your class .
+# ::tokens ["speaker4", ":", "hi", ",", "you", "'", "re", "chandler", "bing", ",", "right", "?", "i", "'", "m", "tom", "gordon", ",", "i", "was", "in", "your", "class", "."]
+# ::lemmas ["speaker4", ":", "hi", ",", "you", "'", "re", "chandler", "bing", ",", "right", "?", "i", "'", "m", "tom", "gordon", ",", "i", "be", "in", "you", "class", "."]
+# ::pos_tags ["NN", ":", "UH", ",", "PRP", "''", "JJ", "NN", "NN", ",", "NN", ".", "FW", "''", "NN", "NN", "NN", ",", "FW", "VBD", "IN", "PRP$", "NN", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::abstract_map {}
+(c0 / multi-sentence
+      :snt1 (c1 / say-01
+            :ARG0 (c5 / person
+                  :ARG0-of (c11 / speak-01))
+            :ARG1 (c4 / hi))
+      :snt2 (c2 / bing
+            :ARG0 (c6 / i)
+            :ARG1-of (c7 / request-confirmation-91)
+            :ARG2 (c8 / you))
+      :snt3 (c3 / be-located-at-91
+            :ARG2 (c9 / gordon)
+            :ARG2 (c10 / class
+                  :poss c8)))
+
+# ::id 6
+# ::snt speaker2 : oh yes , yes . . . let me . . . take your coat .
+# ::tokens ["speaker2", ":", "oh", "yes", ",", "yes", "...", "let", "me", "...", "take", "your", "coat", "."]
+# ::lemmas ["speaker2", ":", "oh", "yes", ",", "yes", "...", "let", "I", "...", "take", "you", "coat", "."]
+# ::pos_tags ["NN", ":", "UH", "UH", ",", "UH", ":", "VB", "PRP", ":", "VB", "PRP$", "NN", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::abstract_map {}
+(c0 / and
+      :op1 (c1 / person
+            :ARG0-of (c3 / speak-01))
+      :op2 (c2 / let-01
+            :ARG0 (c5 / you)
+            :ARG1 (c4 / take-01
+                  :ARG0 (c9 / i)
+                  :ARG1 (c8 / coat))
+            :mod (c6 / oh
+                  :mode expressive)
+            :mode imperative))
+
+# ::id 7
+# ::snt speaker4 : thanks . . . uh . . . i ' m so sorry about ross , it ' s . . .
+# ::tokens ["speaker4", ":", "thanks", "...", "uh", "...", "i", "'", "m", "so", "sorry", "about", "ross", ",", "it", "'", "s", "..."]
+# ::lemmas ["speaker4", ":", "thanks", "...", "uh", "...", "i", "'", "m", "so", "sorry", "about", "ross", ",", "it", "'", "s", "..."]
+# ::pos_tags ["NN", ":", "NNS", ":", "UH", ":", "FW", "''", "NN", "RB", "JJ", "IN", "NN", ",", "PRP", "''", "NNS", ":"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::abstract_map {}
+(c0 / and
+      :op1 (c1 / thank-01
+            :ARG0 (c4 / i)
+            :ARG1 (c3 / person))
+      :op2 (c2 / say-01
+            :ARG1 (c5 / sorry-01
+                  :ARG1 c4
+                  :ARG2 (c7 / event
+                        :mod (c9 / anymore))
+                  :degree (c8 / so))
+            :ARG1-of (c6 / sharp-02)))
+
+# ::id 8
+# ::snt speaker2 : at least he died doing what he loved . . . watching blimps .
+# ::tokens ["speaker2", ":", "at-least", "he", "died", "doing", "what", "he", "loved", "...", "watching", "blimps", "."]
+# ::lemmas ["speaker2", ":", "at-least", "he", "die", "do", "what", "he", "love", "...", "watch", "blimp", "."]
+# ::pos_tags ["NN", ":", "COMP", "PRP", "VBD", "VBG", "WP", "PRP", "VBD", ":", "VBG", "NNS", "."]
+# ::ner_tags ["O", "O", "0", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::abstract_map {}
+(c0 / and
+      :op1 (c1 / do-02
+            :ARG0 (c4 / he)
+            :ARG1 (c3 / thing
+                  :ARG1-of (c7 / love-01
+                        :ARG0 c4))
+            :mod (c5 / at-least))
+      :op2 (c2 / watch-01
+            :ARG0 c4
+            :ARG1 (c6 / blimp)))
+
+# ::id 9
+# ::snt speaker1 : who is he ?
+# ::tokens ["speaker1", ":", "who", "is", "he", "?"]
+# ::lemmas ["speaker1", ":", "who", "be", "he", "?"]
+# ::pos_tags ["NN", ":", "WP", "VBZ", "PRP", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O"]
+# ::abstract_map {}
+(c0 / person
+      :domain (c2 / amr-unknown)
+      :domain (c3 / he)
+      :name (c1 / speaker1))
+
+# ::id 10
+# ::snt speaker2 : some guy , tom gordon .
+# ::tokens ["speaker2", ":", "some", "guy", ",", "tom", "gordon", "."]
+# ::lemmas ["speaker2", ":", "some", "guy", ",", "tom", "gordon", "."]
+# ::pos_tags ["NN", ":", "DT", "NN", ",", "NN", "NN", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::abstract_map {}
+(c0 / and
+      :op1 (c1 / person
+            :ARG0-of (c3 / speak-01))
+      :op2 (c2 / gordon
+            :domain (c4 / guy
+                  :mod (c6 / some))
+            :domain (c5 / possible-01)))
+
+# ::id 11
+# ::snt speaker1 : i don ' t remember him , but then again i touched so many lives .
+# ::tokens ["speaker1", ":", "i", "don", "'", "DATE_ATTRS_1", "remember", "him", ",", "but", "then", "again", "i", "touched", "so", "many", "lives", "."]
+# ::lemmas ["speaker1", ":", "i", "don", "'", "DATE_ATTRS_1", "remember", "he", ",", "but", "then", "again", "i", "touch", "so", "many", "life", "."]
+# ::pos_tags ["NN", ":", "FW", "VBP", "''", "NNP", "VBP", "PRP", ",", "CC", "RB", "RB", "FW", "VBN", "RB", "JJ", "NNS", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "DATE_ATTRS", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::abstract_map {"DATE_ATTRS_1": {"type": "date-entity", "span": "t", "ner": "DATE_ATTRS", "attrs": {}, "edges": {"weekday": "thursday"}}}
+(c0 / say-01
+      :ARG0 (c2 / i)
+      :ARG1 (c1 / contrast-01
+            :ARG1 (c4 / remember-01
+                  :ARG0 c2
+                  :ARG1 (c7 / he)
+                  :time (c8 / date-entity
+                        :weekday (t / thursday)))
+            :ARG2 (c5 / touch-01
+                  :ARG0 c2
+                  :ARG1 (c9 / life
+                        :quant (c11 / many
+                              :degree (c12 / so)))
+                  :mod (c10 / again)))
+      :ARG2 (c3 / person
+            :ARG0-of (c6 / speak-01)))
+
+# ::id 12
+# ::snt speaker3 : so , did you know ross well ?
+# ::tokens ["speaker3", ":", "so", ",", "did", "you", "know", "ross", "well", "?"]
+# ::lemmas ["speaker3", ":", "so", ",", "do", "you", "know", "ross", "well", "?"]
+# ::pos_tags ["NN", ":", "RB", ",", "VBD", "PRP", "VB", "NN", "RB", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::abstract_map {}
+(c0 / post-scriptum
+      :domain (c1 / know-02
+            :ARG0 (c3 / you)
+            :ARG1 (c2 / ross)
+            :ARG1-of (c4 / well-09)
+            :mode interrogative))
+
+# ::id 13
+# ::snt speaker4 : oh , actually i barely knew him . yeah , i came because i heard chandler ' s news . d ' you know if he ' s seeing anyone ?
+# ::tokens ["speaker4", ":", "oh", ",", "actually", "i", "barely", "knew", "him", ".", "yeah", ",", "i", "came", "because", "i", "heard", "chandler", "'", "s", "news", ".", "d", "'", "you", "know", "if", "he", "'", "s", "seeing", "anyone", "?"]
+# ::lemmas ["speaker4", ":", "oh", ",", "actually", "i", "barely", "know", "he", ".", "yeah", ",", "i", "come", "because", "i", "hear", "chandler", "'", "s", "news", ".", "d", "'", "you", "know", "if", "he", "'", "be", "see", "anyone", "?"]
+# ::pos_tags ["NN", ":", "UH", ",", "RB", "FW", "RB", "VBD", "PRP", ".", "NN", ",", "FW", "VBD", "IN", "FW", "VBN", "NN", "''", "NNS", "NN", ".", "NN", "''", "PRP", "VBP", "IN", "PRP", "''", "VBZ", "VBG", "NN", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::abstract_map {}
+(c0 / multi-sentence
+      :snt1 (c1 / know-02
+            :ARG0 (c5 / i)
+            :ARG1 (c4 / person
+                  :ARG0-of (c14 / joke-01))
+            :ARG1-of (c7 / actual-02)
+            :degree (c8 / bare)
+            :mod (c6 / oh))
+      :snt2 (c2 / come-01
+            :ARG1 (c9 / i)
+            :ARG1-of (c10 / cause-01
+                  :ARG0 (c15 / hear-01
+                        :ARG0 c9
+                        :ARG1 (c18 / news))))
+      :snt3 (c3 / know-01
+            :ARG0 (c12 / you)
+            :ARG1 (c11 / see-05
+                  :ARG0 (c17 / he)
+                  :ARG1 (c16 / anyone))
+            :mode interrogative))
+
+# ::id 14
+# ::snt speaker3 : yes , he is . me .
+# ::tokens ["speaker3", ":", "yes", ",", "he", "is", ".", "me", "."]
+# ::lemmas ["speaker3", ":", "yes", ",", "he", "be", ".", "I", "."]
+# ::pos_tags ["NN", ":", "UH", ",", "PRP", "VBZ", ".", "PRP", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::abstract_map {}
+(c0 / and
+      :op1 (c1 / yes
+            :domain (c3 / person
+                  :ARG0-of (c5 / speak-01)))
+      :op2 (c2 / i
+            :domain (c4 / he)))
+
+# ::id 15
+# ::snt speaker4 : what ? you . . . you . . . oh ! can i ask you a personal question ? ho - how do you shave your beard so close ?
+# ::tokens ["speaker4", ":", "what", "?", "you", "...", "you", "...", "oh", "!", "can", "i", "ask", "you", "a", "personal", "question", "?", "ho", "-", "how", "do", "you", "shave", "your", "beard", "so", "close", "?"]
+# ::lemmas ["speaker4", ":", "what", "?", "you", "...", "you", "...", "oh", "!", "can", "i", "ask", "you", "a", "personal", "question", "?", "ho", "-", "how", "do", "you", "shave", "you", "beard", "so", "close", "?"]
+# ::pos_tags ["NN", ":", "WP", ".", "PRP", ":", "PRP", ":", "UH", ".", "MD", "FW", "VB", "PRP", "DT", "JJ", "NN", ".", "SYM", ":", "WRB", "VBP", "PRP", "VB", "PRP$", "NN", "RB", "RB", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::abstract_map {}
+(c0 / multi-sentence
+      :snt1 (c1 / speak-01
+            :ARG1 (c3 / amr-unknown)
+            :ARG2 (c4 / you))
+      :snt2 (c2 / possible-01
+            :ARG1 (c5 / ask-01
+                  :ARG0 (c10 / i)
+                  :ARG1 (c8 / shave-01
+                        :ARG0 (c11 / you
+                              :part (c13 / beard))
+                        :ARG2 c13
+                        :location (c14 / close-10
+                              :ARG2 c13
+                              :degree (c17 / so)))
+                  :ARG1 (c9 / thing
+                        :ARG1-of (c15 / question-01)
+                        :ARG1-of (c16 / personal-02))
+                  :ARG2 c11)
+            :mod (c6 / oh
+                  :mode expressive)
+            :mode interrogative))
+
+# ::id 16
+# ::snt speaker2 : ok tommy , that ' s enough mourning for you ! here we go , bye bye ! !
+# ::tokens ["speaker2", ":", "ok", "tommy", ",", "that", "'", "s", "enough", "mourning", "for", "you", "!", "here", "we", "go", ",", "bye", "bye", "!", "!"]
+# ::lemmas ["speaker2", ":", "ok", "tommy", ",", "that", "'", "be", "enough", "mourn", "for", "you", "!", "here", "we", "go", ",", "bye", "bye", "!", "!"]
+# ::pos_tags ["NN", ":", "NN", "NN", ",", "WDT", "''", "VBZ", "RB", "VBG", "IN", "PRP", ".", "RB", "PRP", "VBP", ",", "VBP", "NN", ".", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::abstract_map {}
+(c0 / multi-sentence
+      :snt1 (c1 / okay-01)
+      :snt2 (c2 / say-01
+            :ARG0 (c5 / mourn-01
+                  :domain (c11 / you)
+                  :domain (c12 / that)
+                  :quant (c10 / enough))
+            :ARG1 (c4 / bye
+                  :domain (c9 / go-02
+                        :ARG0 (c13 / we)
+                        :ARG4 (c14 / here))
+                  :mode expressive)
+            :ARG2 (c6 / i)
+            :ARG2 (c7 / tommy))
+      :snt3 (c3 / say-01))
+
+# ::id 17
+# ::snt speaker4 : hey , listen . call me .
+# ::tokens ["speaker4", ":", "hey", ",", "listen", ".", "call", "me", "."]
+# ::lemmas ["speaker4", ":", "hey", ",", "listen", ".", "call", "I", "."]
+# ::pos_tags ["NN", ":", "NN", ",", "VBP", ".", "VB", "PRP", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::abstract_map {}
+(c0 / multi-sentence
+      :snt1 (c1 / person
+            :ARG0-of (c4 / speaker4))
+      :snt2 (c2 / listen-01
+            :ARG0 (c5 / you)
+            :mod (c6 / hey)
+            :mode imperative)
+      :snt3 (c3 / call-02
+            :ARG1 (c8 / i)
+            :mode imperative))
+
+# ::id 18
+# ::snt speaker2 : ok !
+# ::tokens ["speaker2", ":", "ok", "!"]
+# ::lemmas ["speaker2", ":", "ok", "!"]
+# ::pos_tags ["NN", ":", "NN", "."]
+# ::ner_tags ["O", "O", "O", "O"]
+# ::abstract_map {}
+(c0 / okay-01
+      :ARG2 (c1 / person
+            :ARG0-of expressive
+            :ARG0-of (c3 / lead-02)))

@@ -13,7 +13,7 @@ We recommend to use conda to manage virtual environments:
 conda create --name <env> --file requirements.txt
 ```
 # Data 
-The preprocessed data for DialogRE and DialogRG are avaliable at [here](https://drive.google.com/drive/folders/1UEzGAmV5b7POtlH8sH-rDA0GfXlwteDE?usp=sharing) and [here](tobeadded), respectively.
+The preprocessed data for DialogRE and DialogRG are avaliable at [here](https://drive.google.com/drive/folders/1UEzGAmV5b7POtlH8sH-rDA0GfXlwteDE?usp=sharing) and [here](https://drive.google.com/file/d/1BciSzIKqezfcxgI3CBWk4Qg_FPCheFpz/view?usp=sharing), respectively.
 
 # Preprocessing
 ```
@@ -51,8 +51,6 @@ bash /path/to/code/decode.sh                 # for dialogue response generation
 | Dual  | 68.4 | 62.7  | 67.3 | 61.7 | [model](https://drive.google.com/file/d/1oeosWHIva6IWGFvjEYrcPxoGhd1UZ9Kv/view?usp=sharing) |
 
 # Todo
-+ upload preprocessed DialogRG data
-+ upload trained DialogRG checkpoint
 + clean code
 
 # References

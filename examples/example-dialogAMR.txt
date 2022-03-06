@@ -1,0 +1,219 @@
+# ::snt speaker1 : it ' s been an hour and not one of my classmates has shown up ! i tell you , when i actually die some people are gonna get seriously haunted ! speaker2 : there you go ! someone came ! speaker1 : ok , ok ! i ' m gonna go hide ! oh , this is so exciting , my first mourner ! speaker3 : hi , glad you could come . speaker2 : please , come in . speaker4 : hi , you ' re chandler bing , right ? i ' m tom gordon , i was in your class . speaker2 : oh yes , yes . . . let me . . . take your coat . speaker4 : thanks . . . uh . . . i ' m so sorry about ross , it ' s . . . speaker2 : at least he died doing what he loved . . . watching blimps . speaker1 : who is he ? speaker2 : some guy , tom gordon . speaker1 : i don ' t remember him , but then again i touched so many lives . speaker3 : so , did you know ross well ? speaker4 : oh , actually i barely knew him . yeah , i came because i heard chandler ' s news . d ' you know if he ' s seeing anyone ? speaker3 : yes , he is . me . speaker4 : what ? you . . . you . . . oh ! can i ask you a personal question ? ho - how do you shave your beard so close ? speaker2 : ok tommy , that ' s enough mourning for you ! here we go , bye bye ! ! speaker4 : hey , listen . call me . speaker2 : ok !
+# ::tok speaker1 : it ' s been an hour and not one of my classmates has shown up ! i tell you , when i actually die some people are gonna get seriously haunted ! speaker2 : there you go ! someone came ! speaker1 : ok , ok ! i ' m gonna go hide ! oh , this is so exciting , my first mourner ! speaker3 : hi , glad you could come . speaker2 : please , come in . speaker4 : hi , you ' re chandler bing , right ? i ' m tom gordon , i was in your class . speaker2 : oh yes , yes . . . let me . . . take your coat . speaker4 : thanks . . . uh . . . i ' m so sorry about ross , it ' s . . . speaker2 : at least he died doing what he loved . . . watching blimps . speaker1 : who is he ? speaker2 : some guy , tom gordon . speaker1 : i don ' t remember him , but then again i touched so many lives . speaker3 : so , did you know ross well ? speaker4 : oh , actually i barely knew him . yeah , i came because i heard chandler ' s news . d ' you know if he ' s seeing anyone ? speaker3 : yes , he is . me . speaker4 : what ? you . . . you . . . oh ! can i ask you a personal question ? ho - how do you shave your beard so close ? speaker2 : ok tommy , that ' s enough mourning for you ! here we go , bye bye ! ! speaker4 : hey , listen . call me . speaker2 : ok !
+(c00 / dummy
+      :s1 (c1-0 / multi-sentence
+            :snt1 (c1-1 / and
+                  :op1 (c1-3 / person
+                        :name (c1-9 / speaker1))
+                  :op1 (c1-4 / temporal-quantity
+                        :quant 1
+                        :unit (c1-11 / hour))
+                  :op2 (c1-5 / show-up-02
+                        :ARG1 (c1-12 / person
+                              :mod (c1-17 / some))))
+            :snt2 (c1-2 / tell-01
+                  :ARG0 (c1-7 / i
+                        :ARG1-of (c1-15 / have-rel-role-91)
+                        :poss-of (c1-16 / classmate))
+                  :ARG1 (c1-6 / get-03
+                        :ARG2 (c1-13 / pain-01
+                              :ARG1 c1-12
+                              :ARG1 (c1-18 / person)
+                              :ARG1-of (c1-19 / serious-02))
+                        :time (c1-14 / die-01
+                              :ARG1 c1-7
+                              :ARG1-of (c1-20 / actual-02)))
+                  :ARG2 (c1-8 / you)))
+      :s2 (c2-0 / multi-sentence
+            :snt1 (c2-1 / go-back-19
+                  :ARG1 (c2-3 / person
+                        :ARG0-of (c2-7 / speaker2
+                              :ARG1 (c2-8 / you)))
+                  :ARG2 (c2-4 / there)
+                  :mode expressive)
+            :snt2 (c2-2 / come-01
+                  :ARG1 (c2-6 / someone)))
+      :s1 (c3-0 / multi-sentence
+            :snt1 (c3-1 / okay-01
+                  :ARG1 expressive)
+            :snt2 (c3-2 / go-02
+                  :ARG0 (c3-6 / i)
+                  :ARG1 (c3-5 / hide-01
+                        :ARG0 c3-6)
+                  :mod (c3-7 / oh
+                        :mode expressive))
+            :snt3 (c3-3 / say-01
+                  :ARG1 (c3-8 / excite-01
+                        :ARG0 (c3-11 / this)
+                        :degree (c3-12 / so))
+                  :ARG2 (c3-9 / person
+                        :ARG0-of (c3-13 / have-rel-role-91
+                              :ARG1 (c3-15 / i)
+                              :ARG2 (c3-16 / mourner))
+                        :quant (c3-14 / first))))
+      :s3 (c4-0 / multi-sentence
+            :snt1 (c4-1 / hi
+                  :mode (c4-3 / person
+                        :ARG0-of (c4-5 / speak-01)))
+            :snt2 (c4-2 / glad-02
+                  :ARG0 (c4-4 / possible-01
+                        :ARG1 (c4-6 / come-01
+                              :ARG1 (c4-7 / you)))))
+      :s2 (c5-0 / come-in-07
+            :ARG1 (c5-1 / person
+                  :ARG0-of (c5-3 / speak-01))
+            :mode imperative)
+      :s4 (c6-0 / multi-sentence
+            :snt1 (c6-1 / say-01
+                  :ARG0 (c6-5 / person
+                        :ARG0-of (c6-11 / speak-01))
+                  :ARG1 (c6-4 / hi))
+            :snt2 (c6-2 / bing
+                  :ARG0 (c6-6 / i)
+                  :ARG1-of (c6-7 / request-confirmation-91)
+                  :ARG2 (c6-8 / you))
+            :snt3 (c6-3 / be-located-at-91
+                  :ARG2 (c6-9 / gordon)
+                  :ARG2 (c6-10 / class
+                        :poss c6-8)))
+      :s2 (c7-0 / and
+            :op1 (c7-1 / person
+                  :ARG0-of (c7-3 / speak-01))
+            :op2 (c7-2 / let-01
+                  :ARG0 (c7-5 / you)
+                  :ARG1 (c7-4 / take-01
+                        :ARG0 (c7-9 / i)
+                        :ARG1 (c7-8 / coat))
+                  :mod (c7-6 / oh
+                        :mode expressive)
+                  :mode imperative))
+      :s4 (c8-0 / and
+            :op1 (c8-1 / thank-01
+                  :ARG0 (c8-4 / i)
+                  :ARG1 (c8-3 / person))
+            :op2 (c8-2 / say-01
+                  :ARG1 (c8-5 / sorry-01
+                        :ARG1 c8-4
+                        :ARG2 (c8-7 / event
+                              :mod (c8-9 / anymore))
+                        :degree (c8-8 / so))
+                  :ARG1-of (c8-6 / sharp-02)))
+      :s2 (c9-0 / and
+            :op1 (c9-1 / do-02
+                  :ARG0 (c9-4 / he)
+                  :ARG1 (c9-3 / thing
+                        :ARG1-of (c9-7 / love-01
+                              :ARG0 c9-4))
+                  :mod (c9-5 / at-least))
+            :op2 (c9-2 / watch-01
+                  :ARG0 c9-4
+                  :ARG1 (c9-6 / blimp)))
+      :s1 (c10-0 / person
+            :domain (c10-2 / amr-unknown)
+            :domain (c10-3 / he)
+            :name (c10-1 / speaker1))
+      :s2 (c11-0 / and
+            :op1 (c11-1 / person
+                  :ARG0-of (c11-3 / speak-01))
+            :op2 (c11-2 / gordon
+                  :domain (c11-4 / guy
+                        :mod (c11-6 / some))
+                  :domain (c11-5 / possible-01)))
+      :s1 (c12-0 / say-01
+            :ARG0 (c12-2 / i)
+            :ARG1 (c12-1 / contrast-01
+                  :ARG1 (c12-4 / remember-01
+                        :ARG0 c12-2
+                        :ARG1 (c12-7 / he)
+                        :time (c12-8 / date-entity
+                              :weekday (t / thursday)))
+                  :ARG2 (c12-5 / touch-01
+                        :ARG0 c12-2
+                        :ARG1 (c12-9 / life
+                              :quant (c12-11 / many
+                                    :degree (c12-12 / so)))
+                        :mod (c12-10 / again)))
+            :ARG2 (c12-3 / person
+                  :ARG0-of (c12-6 / speak-01)))
+      :s3 (c13-0 / post-scriptum
+            :domain (c13-1 / know-02
+                  :ARG0 (c13-3 / you)
+                  :ARG1 (c13-2 / ross)
+                  :ARG1-of (c13-4 / well-09)
+                  :mode interrogative))
+      :s4 (c14-0 / multi-sentence
+            :snt1 (c14-1 / know-02
+                  :ARG0 (c14-5 / i)
+                  :ARG1 (c14-4 / person
+                        :ARG0-of (c14-14 / joke-01))
+                  :ARG1-of (c14-7 / actual-02)
+                  :degree (c14-8 / bare)
+                  :mod (c14-6 / oh))
+            :snt2 (c14-2 / come-01
+                  :ARG1 (c14-9 / i)
+                  :ARG1-of (c14-10 / cause-01
+                        :ARG0 (c14-15 / hear-01
+                              :ARG0 c14-9
+                              :ARG1 (c14-18 / news))))
+            :snt3 (c14-3 / know-01
+                  :ARG0 (c14-12 / you)
+                  :ARG1 (c14-11 / see-05
+                        :ARG0 (c14-17 / he)
+                        :ARG1 (c14-16 / anyone))
+                  :mode interrogative))
+      :s3 (c15-0 / and
+            :op1 (c15-1 / yes
+                  :domain (c15-3 / person
+                        :ARG0-of (c15-5 / speak-01)))
+            :op2 (c15-2 / i
+                  :domain (c15-4 / he)))
+      :s4 (c16-0 / multi-sentence
+            :snt1 (c16-1 / speak-01
+                  :ARG1 (c16-3 / amr-unknown)
+                  :ARG2 (c16-4 / you))
+            :snt2 (c16-2 / possible-01
+                  :ARG1 (c16-5 / ask-01
+                        :ARG0 (c16-10 / i)
+                        :ARG1 (c16-8 / shave-01
+                              :ARG0 (c16-11 / you
+                                    :part (c16-13 / beard))
+                              :ARG2 c16-13
+                              :location (c16-14 / close-10
+                                    :ARG2 c16-13
+                                    :degree (c16-17 / so)))
+                        :ARG1 (c16-9 / thing
+                              :ARG1-of (c16-15 / question-01)
+                              :ARG1-of (c16-16 / personal-02))
+                        :ARG2 c16-11)
+                  :mod (c16-6 / oh
+                        :mode expressive)
+                  :mode interrogative))
+      :s2 (c17-0 / multi-sentence
+            :snt1 (c17-1 / okay-01)
+            :snt2 (c17-2 / say-01
+                  :ARG0 (c17-5 / mourn-01
+                        :domain (c17-11 / you)
+                        :domain (c17-12 / that)
+                        :quant (c17-10 / enough))
+                  :ARG1 (c17-4 / bye
+                        :domain (c17-9 / go-02
+                              :ARG0 (c17-13 / we)
+                              :ARG4 (c17-14 / here))
+                        :mode expressive)
+                  :ARG2 (c17-6 / i)
+                  :ARG2 (c17-7 / tommy))
+            :snt3 (c17-3 / say-01))
+      :s4 (c18-0 / multi-sentence
+            :snt1 (c18-1 / person
+                  :ARG0-of (c18-4 / speaker4))
+            :snt2 (c18-2 / listen-01
+                  :ARG0 (c18-5 / you)
+                  :mod (c18-6 / hey)
+                  :mode imperative)
+            :snt3 (c18-3 / call-02
+                  :ARG1 (c18-8 / i)
+                  :mode imperative))
+      :s2 (c19-0 / okay-01
+            :ARG2 (c19-1 / person
+                  :ARG0-of expressive
+                  :ARG0-of (c19-3 / lead-02))))
