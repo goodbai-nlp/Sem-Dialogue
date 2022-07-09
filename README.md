@@ -1,4 +1,4 @@
-# AMR-Dialogue
+# Sem-Dialogue
 An implementation for paper "Semantic Representation for Dialogue Modeling".
 You may find our paper [here](https://arxiv.org/pdf/2105.10188).
 
